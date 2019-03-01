@@ -7,9 +7,9 @@ This repository documents the code supporting the computational findings in the 
 
 ### Step 1: Run the R or bash Scripts
 
-<br>
+
 ![](flowchart/step1.png)
-<br>
+
 
 To reproduce our simulation study from the very beginning, one can first execute the R scripts and/or bash files under the folders illustrated in the above flowchart. In a nutshell, we conducted the simulation experiments under two scenarios (Scenario 1 and 2), and we considered the settings corresponding to whether or not the data were generated to be subject to error (Experiment with error--"Exp_With_Error" or without error --"Exp_No_Error"), under each scenario. In addition, different sample sizes, and number of simulation replications were explored for each setting, which leads to multiple R or bash files under the mentioned folders. Three analytical methods, our proposed Smoothed-EM approach, dmrseq and BiSeq were applied in each simulated data set.
 
@@ -17,9 +17,9 @@ The outputs from all the R and bash files have been saved under their correspond
 
 ### Step 2: Reproduce the Figures
 
-<br>
+
 ![](flowchart/step2.png)
-<br>
+
 
 Compiling the R scriptes with name "Figure*****" can directly produce Figures 2-6 in the article. The above diagram illustrates where to find the R scripts to reproduce each figure. 
 
